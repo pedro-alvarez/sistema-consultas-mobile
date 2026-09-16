@@ -11,13 +11,7 @@ export async function buscarEspecialidadePorId(id: number): Promise<Especialidad
   return response.data;
 }
 
-/**
- * Omit<Especialidade, "id"> → mesmo tipo de Especialidade, mas SEM o campo id.
- * O id é gerado pelo backend ao salvar no banco, então o frontend não envia.
- */
-export async function criarEspecialidade(
-  especialidade: Omit<Especialidade, "id">
-): Promise<Especialidade> {
+export async function criarEspecialidade(especialidade: Omit<Especialidade, "id">): Promise<Especialidade> {
   const response = await api.post<Especialidade>("/especialidades", especialidade);
   return response.data;
 }
