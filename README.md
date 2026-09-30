@@ -22,7 +22,7 @@ Em `src/services/api.ts`, ajuste a `BASE_URL` conforme o cenário:
 |---|---|
 | Backend no seu PC (Expo Web / iOS Simulator) | `http://localhost:8080` |
 | Celular físico na mesma rede Wi-Fi | `http://192.168.x.x:8080` |
-| APK com backend publicado no Render | `https://SEU-SERVICO.onrender.com` |
+| APK com backend publicado no Render | `https://backend-consultas-4aru.onrender.com` |
 
 ---
 
@@ -30,7 +30,7 @@ Em `src/services/api.ts`, ajuste a `BASE_URL` conforme o cenário:
 
 ### Backend
 
-Hospedado no Render: `https://SEU-SERVICO.onrender.com`
+Hospedado no Render: `https://backend-consultas-4aru.onrender.com`
 
 - `GET /health` → `{"status":"UP"}`
 - `GET /medicos` → lista de médicos

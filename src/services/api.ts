@@ -13,7 +13,7 @@ import axios, { AxiosError } from "axios";
 //    const BASE_URL = "https://SEU-SERVICO.onrender.com";
 //
 // =============================================================================
-const BASE_URL = "https://SEU-SERVICO.onrender.com"; // ← substitua pela sua URL Render
+const BASE_URL = "https://backend-consultas-4aru.onrender.com"; // backend publicado no Render
 
 const api = axios.create({
   baseURL: BASE_URL,
