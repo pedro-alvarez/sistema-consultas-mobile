@@ -80,3 +80,6 @@ npm run build:apk        # eas build -p android --profile preview
 
 O APK fica disponível para download/QR na aba **Builds** do projeto em
 [expo.dev](https://expo.dev).
+
+<img width="313" height="381" alt="image" src="https://github.com/user-attachments/assets/50f12147-706e-44b3-9fe0-b0b280c4b66a" />
+
